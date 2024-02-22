@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.9S4FdXqnFhQljNYniMIgFQAAAA&pid=Api&P=0&h=180" alt="Gambar">
+        <span>Fakultas Teknologi informasi</span>
+    </header>
+    <main>
+        <h1>pendataan Buku UKDW</h1>
+        <form action="lth2.html" method="post">
+            <div>
+                <label>No. Buku</label>
+                <input disabled value="900001">
+            </div>
+            <div>
+                <label >Judul Buku</label>
+                <input type="text" >
+            </div>
+            <div>
+                <label >Kategori Buku</label>
+                <input type="Radio" name="Kategori" id="KategoriID" value="1">Novel
+                <input type="Radio" name="Kategori" id="KategoriID" value="2">Majalah
+                <input type="Radio" name="Kategori" id="KategoriID" value="3">Komik
+                <input type="Radio" name="genre" id="KategoriID" value="4">Ensiklopedia
+            </div>
+            <div>
+                <label > Genre Buku</label>
+                <input type="checkbox" name="genre" id="GenreID" value="1">Fiksi
+                <input type="checkbox" name="genre" id="GenreID" value="2">Horor
+                <input type="checkbox" name="genre" id="GenreID" value="3">Misteri
+                <input type="checkbox" name="genre" id="GenreID" value="4">Fantasi
+            </div>
+            <div>
+                <label >Penerbit</label>
+                <select name="Penerbit">
+                    <option value="0">--pilih Penerbit---</option>
+                    <option value="1">Deepublish</option>
+                    <option value="2">Bukunesia</option>
+                    <option value="3">Grasindo</option>
+                    <option value="4">Bintang Media</option>
+                </select>
+            </div>
+            <div>
+                <label >File Gambar</label>
+                <input type="file" name="gambar" id="gambarid">
+            </div>
+            <div>
+                <label >Sinopsis</label>
+                <textarea name="Sinopsis" id="sinopsis" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <label>Tanggal Beli</label>
+                <input type="date" name="tgl" id="tglid">
+            </div>
+            <div>
+                <label>Jumlah Pembelian</label>
+                <input type="number" name="jml" id="jmlid">
+            </div>
+            <div>
+                <input type="submit" value="Simpan">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
